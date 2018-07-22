@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-header></v-header>
-    <v-home></v-home>
+    <router-view></router-view>
     <v-footer></v-footer>
   </div>
 </template>
@@ -22,5 +22,8 @@
 </script>
 
 <style lang="scss">
-
+  #app {
+    display: flex;
+    flex-direction: column;
+  }
 </style>

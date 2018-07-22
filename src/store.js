@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
@@ -23,10 +23,10 @@ export default new Vuex.Store({
     actions: { },
     getters: {
         pages(state) {
-            return state.pages;
+            return state.pages
         },
         layouts(state) {
-            return state.layouts;
+            return state.layouts
         }
     }
 })
